@@ -1,0 +1,25 @@
+[project]
+name = "comfyui-jq"
+description = "A ComfyUI node that runs a jq query against input JSON and outputs the result"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["jq"]
+requires-python = ">= 3.8"
+authors = [
+    {name = "Gremlation", email = "gremlation@proton.me"},
+]
+maintainers = [
+    {name = "Gremlation", email = "gremlation@proton.me"},
+]
+readme = "README.md"
+keywords = ["ComfyUI"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[project.urls]
+Repository = "https://github.com/gremlation/ComfyUI-jq"
+
+[tool.comfy]
+PublisherId = "gremlation"
+DisplayName = "ComfyUI-jq"
