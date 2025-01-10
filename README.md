@@ -8,11 +8,16 @@ A ComfyUI node that runs a [jq](https://jqlang.github.io/jq/) query against inpu
 
 ### ComfyUI-Manager
 
-- Open the manager
-- Pick "Install via Git URL"
-- Enter `https://github.com/Gremlation/ComfyUI-jq`
+- Open the Manager
+- Pick "Custom Nodes Manager"
+- Search for "ComfyUI-jq"
+- Install the latest version
+- Restart ComfyUI
 
-You may need to edit `custom_nodes/ComfyUI-Manager/config.ini` and set `security_level = normal-` first.
+### Comfy-Cli
+
+- Run `comfy node install comfyui-jq`
+- Restart ComfyUI
 
 ### Manual
 
